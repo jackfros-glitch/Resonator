@@ -6,9 +6,14 @@ import styles from "../../styles/Navbar.module.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="relative z-10 top-[20px] mt-[] sm:top-[-30px] flex flex-wrap justify-between items-center sm:h-28  mx-3 sm:mx-11 font-lato">
+    <nav className="absolute w-[100%] z-10 top-[20px] sm:top-[-30px] flex flex-wrap justify-between items-center sm:h-28  px-2 sm:px-11 font-lato">
       <div className="order-1 w-3/6 sm:w-fit">
-        <Image src="/logo.png" alt="Logo" width={131.81} height={19.98} />
+        <Image
+          src="/images/logo.png"
+          alt="Logo"
+          width={131.81}
+          height={19.98}
+        />
       </div>
       <div
         className={` ${
@@ -33,10 +38,10 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="flex w-3/6 sm:w-32 order-3">
+      <div className="flex w-3/6 sm:w-32 order-3 sm:justify-center">
         <div className="hidden sm:flex items-center ">
           <Image
-            src="/search_icon.png"
+            src="/images/search_icon.png"
             alt="search icon"
             width={15}
             height={21}
@@ -44,7 +49,7 @@ const Navbar = () => {
           <span className="inline-block pl-2">Search</span>
         </div>
         <button
-          className="ml-auto sm:hidden"
+          className="ml-auto sm:ml-0 sm:hidden"
           onClick={() => setIsOpen(!isOpen)}
         >
           <span className={styles.menuLine}></span>

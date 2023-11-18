@@ -20,11 +20,4 @@ body {
   color: rgb(var(--foreground-rgb));
 }
 
-.menu-line{
-  background-repeat: no-repeat;
-  background: url('../public/images/menu-line.svg');
-  width: 25px;
-  height: 6px;
-  margin: 1px;
-  display: block;
-}
+
