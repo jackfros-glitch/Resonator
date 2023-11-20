@@ -12,8 +12,10 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'hero-img': "url('../public/image.png')",
-        'menu-line': "url('../public/menu-line.svg')",
+        'hero-img': "url('../public/images/image.png')",
+        'menu-line': "url('../public/images/menu-line.svg')",
+        'arrow': "url('../public/images/Frame.png')",
+        'speaker': "url('../public/images/speaker_icon.png')"
       },
       fontFamily:{
         'lato':'Lato'
