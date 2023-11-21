@@ -59,7 +59,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className=" h-[292px] border-2 border-stone-950 w-[1136px] mx-auto"></div>
     </>
   );
 };
