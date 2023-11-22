@@ -15,7 +15,8 @@ const config: Config = {
         'hero-img': "url('../public/images/image.png')",
         'menu-line': "url('../public/images/menu-line.svg')",
         'arrow': "url('../public/images/Frame.png')",
-        'speaker': "url('../public/images/speaker_icon.png')"
+        'speaker': "url('../public/images/speaker_icon.png')",
+        'share': "url('../public/images/share_icon.png')"
       },
       fontFamily:{
         'lato':'Lato'

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Podcast from "./components/Podcast";
 import PodcastList from "./components/PodcastList";
+import EpisodeList from "./components/EpisodeList";
 
 export default function Home() {
   const imageStyle = {
@@ -65,7 +66,18 @@ export default function Home() {
         </p>
         <PodcastList />
       </section>
-      {/* <Podcast /> */}
+      <section className="pt-[92px] mt-28 text-base">
+        <div className="flex flex-row justify-between w-[1300px] px-6 mx-auto mb-14">
+          <h2 className="text-center font-bold text-5xl lading-[55px]">
+            Essential episodes:
+          </h2>
+          <span className="inline-block font-bold text-base leading-8 mt-5">
+            View all episodes{" "}
+            <span className=" inline-block bg-arrow w-[19px] h-[14px] mr-3 ml-1"></span>
+          </span>
+        </div>
+        <EpisodeList />
+      </section>
     </main>
   );
 }

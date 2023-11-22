@@ -23,3 +23,46 @@ export const podcasts = [
     category: "Technology",
   },
 ];
+
+export const episodes = [
+  {
+    thumbnail: "/images/pd1-img1.png",
+    topic: "SRKP selects: how the new ages work",
+    episode: "Episode 1 •",
+    category: "Technology",
+  },
+
+  {
+    thumbnail: "/images/pd-img1.png",
+    topic: "SRKP selects: a new mindset today",
+    episode: "Episode 2 •",
+    category: "Technology",
+  },
+
+  {
+    thumbnail: "/images/pd3-img1.png",
+    topic: "SRKP selects: the latest trends now",
+    episode: "Episode 3 •",
+    category: "Technology",
+  },
+  {
+    thumbnail: "/images/pd4-img1.png    ",
+    topic: "SRKP selects: organize your day",
+    episode: "Episode 4 •",
+    category: "Technology",
+  },
+
+  {
+    thumbnail: "/images/pd5-img1.png",
+    topic: "SRKP selects: how to plan your work",
+    episode: "Episode 5 •",
+    category: "Technology",
+  },
+
+  {
+    thumbnail: "/images/pd6-img1.png",
+    topic: "SRKP selects: trying the best phones",
+    episode: "Episode 6 •",
+    category: "Technology",
+  },
+];
