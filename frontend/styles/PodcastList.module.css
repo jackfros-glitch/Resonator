@@ -1,0 +1,3 @@
+.slider::-webkit-scrollbar, .slider::-webkit-scrollbar-thumb, .slider::-webkit-scrollbar-track{
+ display: none;
+}

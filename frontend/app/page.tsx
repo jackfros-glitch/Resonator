@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Podcast from "./components/Podcast";
+import PodcastList from "./components/PodcastList";
 
 export default function Home() {
   const imageStyle = {
@@ -61,7 +63,9 @@ export default function Home() {
         <p className="text-center mt-5">
           Discover the selection of the most popular podcasts.
         </p>
+        <PodcastList />
       </section>
+      {/* <Podcast /> */}
     </main>
   );
 }
