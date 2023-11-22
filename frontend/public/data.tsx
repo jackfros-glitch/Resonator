@@ -66,3 +66,30 @@ export const episodes = [
     category: "Technology",
   },
 ];
+
+export const hosts = [
+  {
+    name: "Bella Jimenez",
+    thumbnail: "/images/p2-team-img1.png",
+    career: "Creative Strategist",
+    linkedInUrl: "",
+    facebookUrl: "",
+    twitterUrl: "",
+  },
+  {
+    name: "Edwin Watson",
+    thumbnail: "/images/p2-team-img2.png",
+    career: "Creative Strategist",
+    linkedInUrl: "",
+    facebookUrl: "",
+    twitterUrl: "",
+  },
+  {
+    name: "Caitlin Henderson",
+    thumbnail: "/images/p2-team-img3.png",
+    career: "Creative Strategist",
+    linkedInUrl: "",
+    facebookUrl: "",
+    twitterUrl: "",
+  },
+];

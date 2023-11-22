@@ -61,7 +61,7 @@ const Podcast = ({ podcast }: PodcastProps) => {
           <p className="font-bold text-[27px] border-b-[3px] border-black pb-1">
             {podcast.topic}
           </p>
-          <span className="font-bold text-base leading-8 mt-5">
+          <span className="font-bold text-base leading-8 mt-5 cursor-pointer">
             Episode page{" "}
             <span className=" inline-block bg-arrow w-[19px] h-[14px] mr-3 ml-1"></span>
           </span>

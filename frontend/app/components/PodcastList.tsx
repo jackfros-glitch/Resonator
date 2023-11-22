@@ -9,7 +9,7 @@ const PodcastList = () => {
         className={`${styles.slider} flex flex-row gap-x-10 w-[full] overflow-x-scroll snap-mandatory scroll-smooth`}
       >
         {podcasts.map((podcast) => (
-          <Podcast podcast={podcast} />
+          <Podcast key={podcast.id} podcast={podcast} />
         ))}
       </div>
       <nav className=" mt-[59px] flex flex-row justify-center w-full h-fit">

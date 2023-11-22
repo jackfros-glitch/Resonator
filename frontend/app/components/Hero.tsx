@@ -29,7 +29,7 @@ const Hero = () => {
               {" "}
               Timmy Mike: the nature of design
             </p>{" "}
-            <span className="font-bold text-base leading-8">
+            <span className="font-bold text-base leading-8 cursor-pointer">
               Episode page{" "}
               <span className=" inline-block bg-arrow w-[19px] h-[14px] mr-3 ml-1"></span>
             </span>

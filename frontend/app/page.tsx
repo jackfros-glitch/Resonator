@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Podcast from "./components/Podcast";
 import PodcastList from "./components/PodcastList";
 import EpisodeList from "./components/EpisodeList";
+import HostList from "./components/HostList";
 
 export default function Home() {
   const imageStyle = {
@@ -71,12 +72,36 @@ export default function Home() {
           <h2 className="text-center font-bold text-5xl lading-[55px]">
             Essential episodes:
           </h2>
-          <span className="inline-block font-bold text-base leading-8 mt-5">
+          <span className="inline-block font-bold text-base leading-8 mt-5 cursor-pointer">
             View all episodes{" "}
             <span className=" inline-block bg-arrow w-[19px] h-[14px] mr-3 ml-1"></span>
           </span>
         </div>
         <EpisodeList />
+      </section>
+      <div className="mt-[140px] mb-[150px] relative">
+        <img
+          src="/images/h1-video-paralax-img-2048x758.png"
+          alt="video_parrallex"
+          className="max-w[1920px] max-h-[710.61px]"
+        />
+        <span className="inline-flex items-center justify-center w-[90px] h-[90px] rounded-[45px] bg-white absolute top-[50%] -mt-[55px] -ml-[55px] left-[50%]">
+          <span className="inline-block bg-play w-[25px] h-[28px]"></span>
+        </span>
+      </div>
+      <section className=" mb-24">
+        <div className="flex flex-row justify-between w-[1300px] px-6 mx-auto mb-14">
+          <h2 className="text-center font-bold text-5xl lading-[55px]">
+            Meet your hosts:
+          </h2>
+          <span className="inline-block font-bold text-base leading-8 mt-5 cursor-pointer">
+            View all of them{" "}
+            <span className=" inline-block bg-arrow w-[19px] h-[14px] mr-3 ml-1"></span>
+          </span>
+        </div>
+        <div>
+          <HostList />
+        </div>
       </section>
     </main>
   );

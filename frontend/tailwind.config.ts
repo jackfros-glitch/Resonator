@@ -16,7 +16,12 @@ const config: Config = {
         'menu-line': "url('../public/images/menu-line.svg')",
         'arrow': "url('../public/images/Frame.png')",
         'speaker': "url('../public/images/speaker_icon.png')",
-        'share': "url('../public/images/share_icon.png')"
+        'share': "url('../public/images/share_icon.png')",
+        'play': "url('../public/images/play_icon.png')",
+        'facebook': "url('../public/images/facebook_icon.png')",
+        'linkedin': "url('../public/images/linkedin_icon.png')",
+        'twitter': "url('../public/images/twitter_icon.png')",
+
       },
       fontFamily:{
         'lato':'Lato'
