@@ -6,9 +6,9 @@ const Footer = () => {
     height: "23px",
   };
   return (
-    <footer className="bg-black">
-      <div className=" w-[1236px] mx-auto flex flex-row justify-between pt-[134px] pb-[130px]">
-        <div>
+    <footer className="bg-black w-full px-3 pl-6 lg:px-0 lg:pl-0">
+      <div className=" max-w-[1236px] mx-auto flex flex-col lg:flex-row justify-between pt-[134px] pb-[130px]">
+        <div className="mb-8">
           <Image
             src="/images/logonew7.png"
             alt="Logo"
@@ -21,12 +21,12 @@ const Footer = () => {
           </p>
         </div>
         <div className=" ">
-          <p className="text-[#FFFFFF] font-bold text-3xl w-[711px] leading-[34.02px] mb-[113px]">
+          <p className="text-[#FFFFFF] font-bold text-3xl max-w-[711px] leading-[34.02px] mb-[113px]">
             We collaborate with ambitious brands and people; let’s build
             something great together.
           </p>
-          <div className="flex flex-row">
-            <div className=" w-[332.5px]">
+          <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 ">
+            <div className=" max-w-[332.5px]">
               <h2 className="text-[#969696] font-bold text-lg mb-6">
                 Start a conversation:
               </h2>
@@ -36,7 +36,7 @@ const Footer = () => {
               </div>
               <span className="text-[#CCCCCC] text-sm">Terms & Conditions</span>
             </div>
-            <div className="w-[332.5px]">
+            <div className="max-w-[332.5px]">
               <h2 className="text-[#969696] font-bold text-lg mb-6">
                 Find us here:
               </h2>
@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
               <span className="text-[#CCCCCC] text-sm">Privacy Policy</span>
             </div>
-            <div className="w-[332.5px]">
+            <div className="max-w-[332.5px] md:mt-10 lg:mt-0">
               <h2 className="text-[#969696] font-bold text-lg mb-6">
                 Follow us on:
               </h2>

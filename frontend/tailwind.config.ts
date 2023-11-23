@@ -28,7 +28,7 @@ const config: Config = {
 
       },
       fontFamily:{
-        'lato':'Lato'
+        'lato':['Lato', 'Open Sans', 'sans-serif']
       }
     },
   },

@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <>
-      <div className="z-20 absolute flex flex-col w-[90%] sm:pl-[160px] sm:items-start items-center justify-center left-[3%] sm:left-[1%] top-[19%]  ">
+      <div className="z-20 absolute font-lato flex flex-col w-[90%] sm:pl-[160px] sm:items-start items-center justify-center left-[3%] sm:left-[1%] top-[19%]  ">
         <h2 className="hero-heading text-8xl font-bold text-left w-[628px]">
           New episode available now
         </h2>

@@ -20,7 +20,11 @@ const Navbar = () => {
           isOpen ? "block p-2 mt-2" : "hidden"
         } order-4 sm:order-2 w-full sm:w-fit sm:bg-inherit text-[#d2d0db] sm:text-inherit bg-black sm:flex`}
       >
-        <ul className={`${isOpen ? "block" : "hidden"} sm:flex`}>
+        <ul
+          className={`${
+            isOpen ? "block" : "hidden"
+          } sm:flex text-[15px] font-bold`}
+        >
           <li className="pr-9 cursor-pointer border-b-[1px] border-slate-200 hover:text-slate-400 sm:border-0">
             Homes
           </li>
