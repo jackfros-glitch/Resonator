@@ -21,6 +21,10 @@ const config: Config = {
         'facebook': "url('../public/images/facebook_icon.png')",
         'linkedin': "url('../public/images/linkedin_icon.png')",
         'twitter': "url('../public/images/twitter_icon.png')",
+        'facebook1': "url('../public/images/facebook1_icon.png')",
+        'instagram': "url('../public/images/instagram_icon.png')",
+        'twitter1': "url('../public/images/twitter1_icon.png')",
+        'youtube': "url('../public/images/youtube_icon.png')",
 
       },
       fontFamily:{
