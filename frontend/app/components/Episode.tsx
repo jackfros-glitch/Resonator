@@ -12,27 +12,17 @@ interface EpisodeInterface {
 }
 
 const Episode = ({ episode }: EpisodeProps) => {
-  const episodeImage = {
-    src: `${episode.thumbnail}`,
-    width: "387px",
-    height: "387px",
-    alt: "episode_image",
-    borderTopLeftRadius: "10px",
-    borderTopRightRadius: "10px",
-  };
   const headphonesImage = {
     width: "17px",
     height: "22px",
     top: "0",
   };
   return (
-    <div className=" flex flex-col w-[387px]  shadow-[0_0_25px_0_#00000014] rounded-lg overflow-hidden">
+    <div className=" flex flex-col max-w-[387px]  shadow-[0_0_25px_0_#00000014] rounded-lg overflow-hidden">
       <div className="relative">
         <img
-          style={episodeImage}
+          className="w-full sm:max-w[387px]  sm:h-[387px] rounded-tl-[10px] rounded-tr-[10px]"
           src={episode.thumbnail}
-          width={387}
-          height={387}
           alt="episode_image"
         />
         <div className="absolute top-5 right-5 bg-white rounded-xl w-11 h-11 flex items-center justify-center">
@@ -44,8 +34,8 @@ const Episode = ({ episode }: EpisodeProps) => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center w-[387px] h-[215px] bg-[#fff] ">
-        <div className=" flex flex-col h-[200px] w-[302px] justify-center">
+      <div className="flex flex-col justify-center items-center max-w-[387px] h-[200px] sm:h-[215px] bg-[#fff] px-1 sm:px-0 ">
+        <div className=" flex flex-col sm:h-[200px] max-w-[302px] justify-center">
           <div className="flex flex-row mb-2">
             <span className="text-sm text-[#8E8B8C] inline-block">
               {episode.episode}

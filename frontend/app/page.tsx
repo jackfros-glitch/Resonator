@@ -68,11 +68,11 @@ export default function Home() {
         <PodcastList />
       </section>
       <section className="pt-[92px] mt-28 text-base">
-        <div className="flex flex-row justify-between w-[1300px] px-6 mx-auto mb-14">
+        <div className="flex flex-row lg:justify-between max-w-[1300px] xl:px-6 mx-auto mb-14 md:px-11 justify-center">
           <h2 className="text-center font-bold text-5xl lading-[55px]">
             Essential episodes:
           </h2>
-          <span className="inline-block font-bold text-base leading-8 mt-5 cursor-pointer">
+          <span className=" hidden lg:inline-block font-bold text-base leading-8 mt-5 cursor-pointer">
             View all episodes{" "}
             <span className=" inline-block bg-arrow w-[19px] h-[14px] mr-3 ml-1"></span>
           </span>
@@ -90,11 +90,11 @@ export default function Home() {
         </span>
       </div>
       <section className=" mb-24">
-        <div className="flex flex-row justify-between w-[1300px] px-6 mx-auto mb-14">
-          <h2 className="text-center font-bold text-5xl lading-[55px]">
+        <div className="flex flex-row md:justify-between max-w-[1300px] px-8 lg:px-6 mx-auto mb-14  justify-center">
+          <h2 className="text-center font-bold text-5xl leading-[55px] ">
             Meet your hosts:
           </h2>
-          <span className="inline-block font-bold text-base leading-8 mt-5 cursor-pointer">
+          <span className="hidden md:inline-block font-bold text-base leading-8 mt-5 cursor-pointer">
             View all of them{" "}
             <span className=" inline-block bg-arrow w-[19px] h-[14px] mr-3 ml-1"></span>
           </span>
