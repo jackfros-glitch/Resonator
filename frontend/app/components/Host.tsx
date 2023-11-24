@@ -14,27 +14,17 @@ interface HostInterface {
 }
 
 const Host = ({ host }: HostProps) => {
-  const hostImage = {
-    src: `${host.thumbnail}`,
-    width: "387px",
-    height: "448px",
-    alt: "host_image",
-    borderTopLeftRadius: "10px",
-    borderTopRightRadius: "10px",
-  };
   return (
-    <div className=" flex flex-col w-[387px]  shadow-[0_0_25px_0_#00000014] rounded-lg overflow-hidden">
+    <div className=" flex flex-col max-w-[387px]  shadow-[0_0_25px_0_#00000014] rounded-lg overflow-hidden">
       <div className="relative">
         <img
-          style={hostImage}
+          className="w-full sm:max-w[387px] h-[371px] sm:h-[448px] rounded-tl-[10px] rounded-tr-[10px]"
           src={host.thumbnail}
-          width={387}
-          height={448}
           alt="host_image"
         />
       </div>
 
-      <div className="flex flex-col justify-center items-center w-[387px] h-[160px] bg-[#fff] ">
+      <div className="flex flex-col justify-center items-center max-w-[387px] h-[160px] bg-[#fff] ">
         <div className=" flex flex-col h-[200px] w-[302px] justify-center">
           <div className="flex flex-col mb-2">
             <span className=" text-3xl font-bold text-[#000000] inline-block">
