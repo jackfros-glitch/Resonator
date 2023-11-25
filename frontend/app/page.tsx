@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="">
       <Header />
-      <section className="  w-full md:max-w-[1136px] mx-auto mt-72 flex md:flex-row justify-center">
+      <section className="  w-full sm:max-w-[1136px] mx-auto mt-20 sm:mt-30 lg:mt-48 flex md:flex-row justify-center px-2 xl:px-0">
         <div className="sm:max-w-[1136px]   flex flex-col lg:flex-row min-w-[320px] justify-center ">
           <div className="pt-2 flex flex-col justify-center px-2 sm:px-0">
             <h2 className="font-bold text-5xl max-w-[415px] leading-[55px]">

@@ -6,7 +6,7 @@ import styles from "../../styles/Navbar.module.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="absolute w-[100%] z-10 top-[20px] sm:top-[-30px] flex flex-wrap justify-between items-center sm:h-28  px-2 sm:px-11 font-lato">
+    <nav className="absolute w-[100%] z-10 top-[20px] sm:top-[-30px] flex flex-wrap justify-between items-center sm:h-28  px-2 sm:px-11 font-lato lg:pt-5">
       <div className="order-1 w-3/6 sm:w-fit">
         <Image
           src="/images/logo.png"
@@ -44,13 +44,22 @@ const Navbar = () => {
       </div>
       <div className="flex w-3/6 sm:w-32 order-3 sm:justify-center">
         <div className="hidden sm:flex items-center ">
-          <Image
-            src="/images/search_icon.png"
-            alt="search icon"
-            width={15}
-            height={21}
-          />
-          <span className="inline-block pl-2">Search</span>
+          <form action="">
+            <div className="flex flex-row bg-inherit rounded-xl overflow-hidden px-2 items-center ">
+              <img
+                className="w-[15px] h-[21px] "
+                src="/images/search_icon.png"
+                alt="search icon"
+              />
+              <input
+                className="border-none w-full bg-inherit text-[#F8F8F8] pl-1 outline-none"
+                type="text"
+                placeholder="Search"
+              />
+            </div>
+
+            {/* <span className="inline-block pl-2">Search</span> */}
+          </form>
         </div>
         <button
           className="ml-auto sm:ml-0 sm:hidden"

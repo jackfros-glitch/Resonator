@@ -4,11 +4,11 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <>
-      <div className="z-20 absolute font-lato flex flex-col w-[90%] sm:pl-[160px] sm:items-start items-center justify-center left-[3%] sm:left-[1%] top-[19%]  ">
-        <h2 className="hero-heading text-8xl font-bold text-left w-[628px]">
+      <div className="z-20 absolute font-lato flex flex-col w-[90%] sm:pl-[20px] md:pl-[40px] xl:pl-[150px] sm:items-start  justify-center left-[3%] sm:left-[1%] top-[19%]  ">
+        <h2 className="hero-heading text-xl md:text-5xl lg:text-8xl font-bold text-left w-[250px] md:w-[328px] lg:w-[628px]">
           New episode available now
         </h2>
-        <p className="font-sans text-xl font-normal text-left mt-4">
+        <p className="font-sans text-sm md:text-xl font-normal text-left mt-4 sm:w-[273px] w-[200px] lg:w-[373px]">
           Available on Apple Soundcast and Spotify.
         </p>
         <div className=" mt-11">
@@ -16,7 +16,7 @@ const Hero = () => {
           <span className={`${styles.soundCloud} mr-2`}></span>
         </div>
       </div>
-      <div className=" bg-white flex items-center h-[292px] shadow-[0_0_25px_0_#00000014] w-[1136px] mx-auto relative top-[-144px] rounded-xl pr-12 overflow-hidden">
+      <div className=" hidden  bg-white xl:flex items-center h-[292px] shadow-[0_0_25px_0_#00000014] w-[1136px] mx-auto relative top-[-144px] rounded-xl pr-12 overflow-hidden">
         <Image
           src="/images/h4-newimg3-650x650.png"
           alt="episode_photo"

@@ -12,6 +12,20 @@ height: 54px;
     height: 54px;
 }
 
+@media only screen and (max-width:786px) {
+    .applePodcasts{
+        background: url('../public/images/h1-rev-img1_2x.png');
+        width: 120px;
+        height: 35px;
+        }
+    .soundCloud{
+        background: url('../public/images/h1-rev-img2_1x.png');
+        width: 120px;
+        height: 37px;
+    }
+}
+
+
 .hero-heading{
 font-size: 95px;
 font-weight: 700;
