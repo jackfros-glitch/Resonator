@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <main className="">
       <Header />
-      <section className=" w-[1136px] mx-auto mt-72 flex flex-row">
-        <div className="w-[1136px] flex flex-row">
-          <div className="pt-2">
-            <h2 className="font-bold text-5xl w-[415px] leading-[55px]">
+      <section className="  w-full md:max-w-[1136px] mx-auto mt-72 flex md:flex-row justify-center">
+        <div className="sm:max-w-[1136px]   flex flex-col lg:flex-row min-w-[320px] justify-center ">
+          <div className="pt-2 flex flex-col justify-center px-2 sm:px-0">
+            <h2 className="font-bold text-5xl max-w-[415px] leading-[55px]">
               Best places to find design inspiration
             </h2>
             <div className="h-[100px] flex flex-row my-3 items-center">
@@ -30,8 +30,8 @@ export default function Home() {
                 </span>
               </div>
             </div>
-            <div className="w-[514px]">
-              <p>
+            <div className="max-w-[514px]">
+              <p className="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
                 explicabo minima reprehenderit velit harum, ea nemo laboriosam
                 ex aliquid quae quisquam, ipsum eum nesciunt aspernatur dolore
@@ -49,11 +49,8 @@ export default function Home() {
               <span className=" inline-block bg-arrow w-[19px] h-[14px] mr-3 ml-1"></span>
             </span>
           </div>
-          <Image
-            width={525}
-            alt=""
-            height={519}
-            style={imageStyle}
+          <img
+            className="max-w-[525px] max-h-[519px] rounded-[10px] md:ml-auto"
             src={"/images/h1-podcastimg2.png"}
           />
         </div>
