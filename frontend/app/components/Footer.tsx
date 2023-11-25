@@ -47,10 +47,10 @@ const Footer = () => {
               <span className="text-[#CCCCCC] text-sm">Privacy Policy</span>
             </div>
             <div className="max-w-[332.5px] md:mt-10 lg:mt-0">
-              <h2 className="text-[#969696] font-bold text-lg mb-6">
+              <h2 className="text-[#969696] font-bold text-lg mb-8">
                 Follow us on:
               </h2>
-              <div className="text-[#CCCCCC] leading-[27.03px] font-[17px] mb-20">
+              <div className="text-[#CCCCCC] leading-[27.03px] font-[17px] mb-24">
                 <div>
                   <a
                     href="#"
