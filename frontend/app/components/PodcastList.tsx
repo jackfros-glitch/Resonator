@@ -6,7 +6,7 @@ const PodcastList = () => {
   return (
     <div className=" h-[483px]  py-2 mt-10">
       <div
-        className={`${styles.slider} flex flex-row gap-x-10 w-[full] overflow-x-scroll snap-mandatory scroll-smooth`}
+        className={`${styles.slider} flex flex-row gap-x-10 w-[full] overflow-x-scroll snap-mandatory scroll-smooth overscroll-y-auto`}
       >
         {podcasts.map((podcast) => (
           <Podcast key={podcast.id} podcast={podcast} />

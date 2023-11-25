@@ -29,14 +29,12 @@ const Podcast = ({ podcast }: PodcastProps) => {
   return (
     <div
       id={`${podcast.id}`}
-      className=" flex-shrink-0 snap-center snap-normal flex flex-row w-[786px] shadow-[0_0_25px_0_#00000014] rounded-lg overflow-hidden"
+      className=" flex-shrink-0 snap-center snap-normal flex flex-col sm:flex-row min-w[] sm:w-[786px] shadow-[0_0_25px_0_#00000014] rounded-lg rounded-br-lg overflow-hidden"
     >
       <div className="relative">
         <img
-          style={podcastImage}
+          className="w-[393px] h-[393px] rounded-tl-[10px] rounded-tr-[10px] sm:rounded-tr-[0] sm:rounded-bl-[10px]"
           src={podcast.thumbnail}
-          width={393}
-          height={393}
           alt="podcast_image"
         />
         <div className="absolute top-5 right-5 bg-white rounded-xl w-11 h-11 flex items-center justify-center">

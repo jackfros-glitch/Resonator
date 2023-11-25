@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import Footer from "./components/Footer";
 import HostList from "./components/HostList";
 import EpisodeList from "./components/EpisodeList";
+import PodcastList from "./components/PodcastList";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,16 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-        {/* <section className="pt-[92px] mt-28 text-base">
+        {/* <section className="h-[954px] md:h-[831.52px] bg-[#F8F8F8] pt-[92px] mt-28 text-base">
+          <h2 className="text-center font-bold text-5xl lading-[55px]">
+            Top podcasts:
+          </h2>
+          <p className="text-center mt-5">
+            Discover the selection of the most popular podcasts.
+          </p>
+          <PodcastList />
+        </section>
+        <section className="pt-[92px] mt-20 sm:mt-28 text-base">
           <div className="flex flex-row lg:justify-between max-w-[1300px] xl:px-6 mx-auto mb-14 md:px-11 justify-center">
             <h2 className="text-center font-bold text-5xl lading-[55px]">
               Essential episodes:

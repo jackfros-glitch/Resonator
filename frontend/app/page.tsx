@@ -58,7 +58,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="h-[831.52px] bg-[#F8F8F8] pt-[92px] mt-28 text-base">
+      <section className="h-[954px] md:h-[831.52px] bg-[#F8F8F8] pt-[92px] mt-28 text-base">
         <h2 className="text-center font-bold text-5xl lading-[55px]">
           Top podcasts:
         </h2>
