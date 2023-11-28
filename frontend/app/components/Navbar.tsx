@@ -6,7 +6,7 @@ import styles from "../../styles/Navbar.module.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="absolute w-[100%] z-10 top-[20px] sm:top-[-30px] flex flex-wrap justify-between items-center sm:h-28  px-2 sm:px-11 font-lato lg:pt-5">
+    <nav className="absolute w-[100%] z-40 top-[20px] sm:top-[-30px] flex flex-wrap justify-between items-center sm:h-28  px-2 sm:px-11 font-lato lg:pt-5">
       <div className="order-1 w-3/6 sm:w-fit">
         <Image
           src="/images/logo.png"
