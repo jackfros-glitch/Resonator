@@ -6,8 +6,8 @@ import styles from "../../styles/Navbar.module.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="absolute w-[100%] z-40 top-[20px] sm:top-[-30px] flex flex-wrap justify-between items-center sm:h-28  px-2 sm:px-11 font-lato lg:pt-5">
-      <div className="order-1 w-3/6 sm:w-fit">
+    <nav className=" absolute w-[100%] z-40 top-[20px] sm:top-[-30px] flex flex-wrap justify-between items-center sm:h-28   sm:px-11 font-lato lg:pt-5">
+      <div className="order-1 w-3/6 sm:w-fit pl-2">
         <Image
           src="/images/logo.png"
           alt="Logo"
@@ -62,7 +62,7 @@ const Navbar = () => {
           </form>
         </div>
         <button
-          className="ml-auto sm:ml-0 sm:hidden"
+          className="ml-auto sm:ml-0 sm:hidden mr-2 sm:mr-0"
           onClick={() => setIsOpen(!isOpen)}
         >
           <span className={styles.menuLine}></span>
